@@ -34,7 +34,7 @@ body: JSON.stringify(formData)
 if(response.ok){
 
 responseBox.innerHTML =
-"✅ Thank you! Your inquiry has been received.";
+"Thank you! Your inquiry has been received.";
 
 responseBox.style.color = "green";
 
@@ -43,7 +43,7 @@ form.reset();
 }else{
 
 responseBox.innerHTML =
-"❌ Submission failed. Please try again.";
+"Submission failed. Please try again.";
 
 responseBox.style.color = "red";
 
@@ -52,7 +52,7 @@ responseBox.style.color = "red";
 }catch(error){
 
 responseBox.innerHTML =
-"❌ Unable to connect. Please try later.";
+"Unable to connect. Please try later.";
 
 responseBox.style.color = "red";
 
